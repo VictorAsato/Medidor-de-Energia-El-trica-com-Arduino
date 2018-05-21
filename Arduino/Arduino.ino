@@ -27,12 +27,6 @@ void setup()
     Serial.println("Shield ethernet não inicializado.");
     while(1);// abortar (não temos rede)
   } else {
-      Serial.println("Projeto Final de Microprocessadores - Medidor de energia elétrica com arduino.");
-      Serial.println("Henrique Kenzo Kuroki");
-      Serial.println("Matheus Modesto Oliveira");
-      Serial.println("Rafael Rocha da Silva");
-      Serial.println("Tasso Nayade da Rosa Santos");
-      Serial.println("Victor Mitsuo Asato");
       Serial.println();
       Serial.println("Shield ethernet inicializado com sucesso!");
   }
